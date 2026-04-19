@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env_*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (large CSV/model files)
+dataset/*.csv
+dataset/*.zip
+dataset/*.png
+dataset/sac_model_*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+tensorboard_logs/
